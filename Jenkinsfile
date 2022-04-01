@@ -15,7 +15,7 @@ node {
 
 
 	stage('Github Check OutSSSSSSS') {
-                git branch: 'main', credentialsId: 'dmg-github', url: 'https://github.com/sunpyopark/ci-auto'
+                git branch: 'main', credentialsId: 'dmg-github', url: 'https://github.com/DmgSunpyo/ci-auto'
         }
 /**	
 	stage('Build') {
