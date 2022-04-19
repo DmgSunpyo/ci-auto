@@ -14,7 +14,7 @@ node {
      def githubCredential = 'dmg-github'
 
 
-	stage('Github Check Out') {
+	stage('Github Check OutSSS') {
                 git branch: 'main', credentialsId: 'dmg-github', url: 'https://github.com/DmgSunpyo/ci-auto'
         }
 /**	
